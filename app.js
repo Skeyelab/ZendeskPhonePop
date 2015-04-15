@@ -15,7 +15,7 @@
     },
     events: {
       'app.activated':'intialize',
-      'click .btn':'createTicketAndPop',
+      'pane.activated':'createTicketAndPop',
       'popTicket.done': function() {
 		this.popover('hide');
        }
