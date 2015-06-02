@@ -1,0 +1,12 @@
+Registered Email Address: <input type="text" class="email_address"><br>
+Security Code: <input type="text" class="security_code"><br>
+Country: <select class="country">
+    <option value="united_kingdom">United Kingdom</option>
+	<option value="france">France</option>
+	<option value="country_ireland">Ireland</option>
+</select><br>
+Customer Language: <select class="customer_language">
+	<option value="lang_en">English</option>
+	<option value="lang_fr">French</option>
+</select><br>
+<button class="button-confirm" data-action="">Create Phone Ticket</button>
