@@ -1,10 +1,22 @@
 {
   "name": "New Phone Ticket",
   "author": {
-    "name": "Eric Dahl",
-    "email": "edahl@groupon.com",
-    "url": ""
+    "name": "Groupon Global Support Systems",
+    "email": "gss.request@groupon.com"
   },
+  "parameters": [{
+    "name": "security_code",
+    "type": "text",
+    "required": true
+  }, {
+    "name": "country",
+    "type": "text",
+    "required": true
+  }, {
+    "name": "customer_language",
+    "type": "text",
+    "required": true
+  }],
   "defaultLocale": "en",
   "private": true,
   "location": "top_bar",
